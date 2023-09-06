@@ -30,7 +30,7 @@ function writeFavoritesToFile(data) {
   return fs.writeFile("favorites.json", JSON.stringify(data));
 }
 
-// SORT AND FILTER //
+// SORT //
 
 function sortArtistsByName(artists) {
   return artists.slice().sort((a, b) => a.name.localeCompare(b.name));
