@@ -117,7 +117,7 @@ app.delete("/artists/:id", async (req, res) => {
 
 // HTTP METHODS FOR FAVORITES //
 
-// Get favorites for users //
+// Get favorites for user //
 app.get("/favorites/:userId", async (req, res) => {
   const userId = req.params.userId;
   console.log("user favorites")
